@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="demo suite" verbose="1">
+	<tests>
+
+	</tests>
+	<parameter name = "MyName" value = "Manoj Kumar"/>
+</suite>

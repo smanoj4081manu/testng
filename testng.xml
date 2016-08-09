@@ -1,0 +1,32 @@
+<suite name="Suite1" verbose="1">
+	<parameter name="MyName" value="Manoj Kumar" />
+	<parameter name="MyEmail" value="smanoj4081.manu@gmail.com" />
+
+	<test name="Unit Tests">
+		<parameter name="MyName" value="Manoj Kumar inside 'Unit Tests' tag" />
+		<groups>
+			<run>
+				<exclude name="functional" />
+				<include name="unit" />
+			</run>
+		</groups>
+		<classes>
+			<class name="testnglearning.NewTest" />
+			<class name="testnglearning.SecondTest" />
+		</classes>
+	</test>
+
+	<test name="Functional Tests">
+		<parameter name="MyName" value="Manoj Kumar inside 'Functional Tests' tag" />
+		<groups>
+			<run>
+				<exclude name="unit" />
+				<include name="functional" />
+			</run>
+		</groups>
+		<packages>
+			<package name="testnglearning" />
+		</packages>
+	</test>
+
+</suite>
