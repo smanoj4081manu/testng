@@ -36,7 +36,22 @@ public class NewTest {
 		System.out.println("B Functional Test executing on thread with Id : " + Thread.currentThread().getId() + " by " + MyName);
 		Thread.sleep(20);
 		}
-  
+	
+
+	@Parameters({"MyName"})
+	@Test(groups={"unit"})
+	public void cUnitTest(String MyName) throws InterruptedException{
+		System.out.println("C Unit Test executing on thread with Id : " + Thread.currentThread().getId() + " by " + MyName);
+		Thread.sleep(20);
+		}
+	
+	
+	@Parameters({"MyName"})
+	@Test(groups={"functional"})
+	public void dFunctionalTest(String MyName) throws InterruptedException{
+		System.out.println("D Functional Test executing on thread with Id : " + Thread.currentThread().getId() + " by " + MyName);
+		Thread.sleep(20);
+		}
   
   /*
   
