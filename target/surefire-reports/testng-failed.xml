@@ -1,13 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite verbose="0" name="Failed suite [Suite1]">
-  <test name="Regression1(failed)">
+  <parameter name="MyName" value="Manoj Kumar inside &#039;Functional Tests&#039; tag"/>
+  <parameter name="MyEmail" value="smanoj4081.manu@gmail.com"/>
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="Unit Tests(failed)">
+    <parameter name="MyName" value="Manoj Kumar inside &#039;Unit Tests&#039; tag"/>
+    <groups>
+      <run>
+        <include name="unit"/>
+        <exclude name="functional"/>
+      </run>
+    </groups>
     <classes>
       <class name="testnglearning.NewTest">
         <methods>
-          <include name="aUnitTest"/>
+          <include name="aUnitTest" invocation-numbers="0"/>
         </methods>
       </class> <!-- testnglearning.NewTest -->
     </classes>
-  </test> <!-- Regression1(failed) -->
+  </test> <!-- Unit Tests(failed) -->
+  <test name="Functional Tests(failed)">
+    <parameter name="MyName" value="Manoj Kumar inside &#039;Functional Tests&#039; tag"/>
+    <groups>
+      <run>
+        <include name="functional"/>
+        <exclude name="unit"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testnglearning.NewTest">
+        <methods>
+          <include name="bFunctionalTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testnglearning.NewTest -->
+    </classes>
+  </test> <!-- Functional Tests(failed) -->
 </suite> <!-- Failed suite [Suite1] -->

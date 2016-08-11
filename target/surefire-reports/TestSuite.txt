@@ -1,4 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.464 sec
+Tests run: 8, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 6.988 sec <<< FAILURE!
+aUnitTest(testnglearning.NewTest)  Time elapsed: 0.069 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at testnglearning.NewTest.aUnitTest(NewTest.java:31)
+
+bFunctionalTest(testnglearning.NewTest)  Time elapsed: 0.018 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at testnglearning.NewTest.bFunctionalTest(NewTest.java:40)
+

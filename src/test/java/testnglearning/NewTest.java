@@ -1,6 +1,7 @@
 package testnglearning;
 
 
+import org.testng.Assert;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 /*
@@ -27,6 +28,7 @@ public class NewTest {
 	public void aUnitTest(String MyName) throws InterruptedException{
 		System.out.println("A Unit Test executing on thread with Id : " + Thread.currentThread().getId() + " by " + MyName);
 		Thread.sleep(20);
+		Assert.fail();
 		}
 	
 	
@@ -35,6 +37,7 @@ public class NewTest {
 	public void bFunctionalTest(String MyName) throws InterruptedException{
 		System.out.println("B Functional Test executing on thread with Id : " + Thread.currentThread().getId() + " by " + MyName);
 		Thread.sleep(20);
+		Assert.fail();
 		}
 	
 

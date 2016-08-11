@@ -4,12 +4,12 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="0.062">
+           time="0.061">
   <properties />
   
   
             <testcase name="wFunctionalTest" time="0.021" classname="testnglearning.SecondTest" />
+                <testcase name="yFunctionalTest" time="0.020" classname="testnglearning.SecondTest" />
                 <testcase name="zFunctionalTest" time="0.020" classname="testnglearning.SecondTest" />
-                <testcase name="yFunctionalTest" time="0.021" classname="testnglearning.SecondTest" />
       
 </testsuite>
