@@ -1,23 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="6" passed="6">
+<testng-results skipped="0" failed="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite1" duration-ms="246" started-at="2016-08-09T11:20:23Z" finished-at="2016-08-09T11:20:23Z">
+  <suite name="Suite1" duration-ms="643" started-at="2016-08-11T06:33:08Z" finished-at="2016-08-11T06:33:09Z">
     <groups>
       <group name="unit">
-        <method signature="NewTest.aUnitTest(java.lang.String)[pri:0, instance:testnglearning.NewTest@6442b0a6]" name="aUnitTest" class="testnglearning.NewTest"/>
-        <method signature="SecondTest.xUnitTest(java.lang.String)[pri:0, instance:testnglearning.SecondTest@380fb434]" name="xUnitTest" class="testnglearning.SecondTest"/>
+        <method signature="NewTest.aUnitTest(java.lang.String)[pri:0, instance:testnglearning.NewTest@91161c7]" name="aUnitTest" class="testnglearning.NewTest"/>
+        <method signature="NewTest.cUnitTest(java.lang.String)[pri:0, instance:testnglearning.NewTest@91161c7]" name="cUnitTest" class="testnglearning.NewTest"/>
+        <method signature="SecondTest.xUnitTest(java.lang.String)[pri:0, instance:testnglearning.SecondTest@5b275dab]" name="xUnitTest" class="testnglearning.SecondTest"/>
       </group> <!-- unit -->
       <group name="functional">
-        <method signature="NewTest.bFunctionalTest(java.lang.String)[pri:0, instance:testnglearning.NewTest@614c5515]" name="bFunctionalTest" class="testnglearning.NewTest"/>
-        <method signature="SecondTest.wFunctionalTest(java.lang.String)[pri:0, instance:testnglearning.SecondTest@77b52d12]" name="wFunctionalTest" class="testnglearning.SecondTest"/>
-        <method signature="SecondTest.yFunctionalTest(java.lang.String)[pri:0, instance:testnglearning.SecondTest@77b52d12]" name="yFunctionalTest" class="testnglearning.SecondTest"/>
-        <method signature="SecondTest.zFunctionalTest(java.lang.String)[pri:0, instance:testnglearning.SecondTest@77b52d12]" name="zFunctionalTest" class="testnglearning.SecondTest"/>
+        <method signature="NewTest.bFunctionalTest(java.lang.String)[pri:0, instance:testnglearning.NewTest@3c0ecd4b]" name="bFunctionalTest" class="testnglearning.NewTest"/>
+        <method signature="NewTest.dFunctionalTest(java.lang.String)[pri:0, instance:testnglearning.NewTest@3c0ecd4b]" name="dFunctionalTest" class="testnglearning.NewTest"/>
+        <method signature="SecondTest.wFunctionalTest(java.lang.String)[pri:0, instance:testnglearning.SecondTest@598067a5]" name="wFunctionalTest" class="testnglearning.SecondTest"/>
+        <method signature="SecondTest.yFunctionalTest(java.lang.String)[pri:0, instance:testnglearning.SecondTest@598067a5]" name="yFunctionalTest" class="testnglearning.SecondTest"/>
+        <method signature="SecondTest.zFunctionalTest(java.lang.String)[pri:0, instance:testnglearning.SecondTest@598067a5]" name="zFunctionalTest" class="testnglearning.SecondTest"/>
       </group> <!-- functional -->
     </groups>
-    <test name="Unit Tests" duration-ms="89" started-at="2016-08-09T11:20:23Z" finished-at="2016-08-09T11:20:23Z">
+    <test name="Unit Tests" duration-ms="146" started-at="2016-08-11T06:33:08Z" finished-at="2016-08-11T06:33:08Z">
       <class name="testnglearning.SecondTest">
-        <test-method status="PASS" signature="xUnitTest(java.lang.String)[pri:0, instance:testnglearning.SecondTest@380fb434]" name="xUnitTest" duration-ms="20" started-at="2016-08-09T16:50:23Z" finished-at="2016-08-09T16:50:23Z">
+        <test-method status="PASS" signature="xUnitTest(java.lang.String)[pri:0, instance:testnglearning.SecondTest@5b275dab]" name="xUnitTest" duration-ms="21" started-at="2016-08-11T12:03:08Z" finished-at="2016-08-11T12:03:08Z">
           <params>
             <param index="0">
               <value>
@@ -30,7 +32,7 @@
         </test-method> <!-- xUnitTest -->
       </class> <!-- testnglearning.SecondTest -->
       <class name="testnglearning.NewTest">
-        <test-method status="PASS" signature="aUnitTest(java.lang.String)[pri:0, instance:testnglearning.NewTest@6442b0a6]" name="aUnitTest" duration-ms="44" started-at="2016-08-09T16:50:23Z" finished-at="2016-08-09T16:50:23Z">
+        <test-method status="PASS" signature="aUnitTest(java.lang.String)[pri:0, instance:testnglearning.NewTest@91161c7]" name="aUnitTest" duration-ms="33" started-at="2016-08-11T12:03:08Z" finished-at="2016-08-11T12:03:08Z">
           <params>
             <param index="0">
               <value>
@@ -41,11 +43,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aUnitTest -->
+        <test-method status="PASS" signature="cUnitTest(java.lang.String)[pri:0, instance:testnglearning.NewTest@91161c7]" name="cUnitTest" duration-ms="21" started-at="2016-08-11T12:03:08Z" finished-at="2016-08-11T12:03:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Manoj Kumar inside 'Unit Tests' tag]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cUnitTest -->
       </class> <!-- testnglearning.NewTest -->
     </test> <!-- Unit Tests -->
-    <test name="Functional Tests" duration-ms="94" started-at="2016-08-09T11:20:23Z" finished-at="2016-08-09T11:20:23Z">
+    <test name="Functional Tests" duration-ms="104" started-at="2016-08-11T06:33:09Z" finished-at="2016-08-11T06:33:09Z">
       <class name="testnglearning.SecondTest">
-        <test-method status="PASS" signature="wFunctionalTest(java.lang.String)[pri:0, instance:testnglearning.SecondTest@77b52d12]" name="wFunctionalTest" duration-ms="24" started-at="2016-08-09T16:50:23Z" finished-at="2016-08-09T16:50:23Z">
+        <test-method status="PASS" signature="wFunctionalTest(java.lang.String)[pri:0, instance:testnglearning.SecondTest@598067a5]" name="wFunctionalTest" duration-ms="21" started-at="2016-08-11T12:03:09Z" finished-at="2016-08-11T12:03:09Z">
           <params>
             <param index="0">
               <value>
@@ -56,7 +69,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wFunctionalTest -->
-        <test-method status="PASS" signature="yFunctionalTest(java.lang.String)[pri:0, instance:testnglearning.SecondTest@77b52d12]" name="yFunctionalTest" duration-ms="22" started-at="2016-08-09T16:50:23Z" finished-at="2016-08-09T16:50:23Z">
+        <test-method status="PASS" signature="yFunctionalTest(java.lang.String)[pri:0, instance:testnglearning.SecondTest@598067a5]" name="yFunctionalTest" duration-ms="21" started-at="2016-08-11T12:03:09Z" finished-at="2016-08-11T12:03:09Z">
           <params>
             <param index="0">
               <value>
@@ -67,7 +80,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- yFunctionalTest -->
-        <test-method status="PASS" signature="zFunctionalTest(java.lang.String)[pri:0, instance:testnglearning.SecondTest@77b52d12]" name="zFunctionalTest" duration-ms="20" started-at="2016-08-09T16:50:23Z" finished-at="2016-08-09T16:50:23Z">
+        <test-method status="PASS" signature="zFunctionalTest(java.lang.String)[pri:0, instance:testnglearning.SecondTest@598067a5]" name="zFunctionalTest" duration-ms="20" started-at="2016-08-11T12:03:09Z" finished-at="2016-08-11T12:03:09Z">
           <params>
             <param index="0">
               <value>
@@ -80,7 +93,7 @@
         </test-method> <!-- zFunctionalTest -->
       </class> <!-- testnglearning.SecondTest -->
       <class name="testnglearning.NewTest">
-        <test-method status="PASS" signature="bFunctionalTest(java.lang.String)[pri:0, instance:testnglearning.NewTest@614c5515]" name="bFunctionalTest" duration-ms="22" started-at="2016-08-09T16:50:23Z" finished-at="2016-08-09T16:50:23Z">
+        <test-method status="PASS" signature="bFunctionalTest(java.lang.String)[pri:0, instance:testnglearning.NewTest@3c0ecd4b]" name="bFunctionalTest" duration-ms="20" started-at="2016-08-11T12:03:09Z" finished-at="2016-08-11T12:03:09Z">
           <params>
             <param index="0">
               <value>
@@ -91,6 +104,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bFunctionalTest -->
+        <test-method status="PASS" signature="dFunctionalTest(java.lang.String)[pri:0, instance:testnglearning.NewTest@3c0ecd4b]" name="dFunctionalTest" duration-ms="21" started-at="2016-08-11T12:03:09Z" finished-at="2016-08-11T12:03:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Manoj Kumar inside 'Functional Tests' tag]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dFunctionalTest -->
       </class> <!-- testnglearning.NewTest -->
     </test> <!-- Functional Tests -->
   </suite> <!-- Suite1 -->

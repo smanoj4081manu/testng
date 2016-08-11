@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Functional Tests"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.041">
+  <properties />
+  
+  
+            <testcase name="bFunctionalTest" time="0.020" classname="testnglearning.NewTest" />
+                <testcase name="dFunctionalTest" time="0.021" classname="testnglearning.NewTest" />
+      
+</testsuite>

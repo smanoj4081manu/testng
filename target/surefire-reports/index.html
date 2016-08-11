@@ -90,7 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">6 methods,   6 passed</span>
+                    <span class="method-stats">8 methods,   8 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -107,6 +107,16 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="testnglearning.NewTest" hash-for-method="bFunctionalTest(Manoj Kumar inside &#039;Functional Tests&#039; tag)">bFunctionalTest(Manoj Kumar inside 'Functional Tests' tag)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="testnglearning.NewTest" hash-for-method="cUnitTest(Manoj Kumar inside &#039;Unit Tests&#039; tag)">cUnitTest(Manoj Kumar inside 'Unit Tests' tag)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="testnglearning.NewTest" hash-for-method="dFunctionalTest(Manoj Kumar inside &#039;Functional Tests&#039; tag)">dFunctionalTest(Manoj Kumar inside 'Functional Tests' tag)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -141,30 +151,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite1" class="panel Suite1">
-          <div class="suite-Suite1-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testnglearning.NewTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="aUnitTest(Manoj Kumar inside &#039;Unit Tests&#039; tag)">
-                  </a> <!-- aUnitTest(Manoj Kumar inside 'Unit Tests' tag) -->
-                  <span class="method-name">aUnitTest</span>
-                  <span class="parameters">(Manoj Kumar inside 'Unit Tests' tag)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="bFunctionalTest(Manoj Kumar inside &#039;Functional Tests&#039; tag)">
-                  </a> <!-- bFunctionalTest(Manoj Kumar inside 'Functional Tests' tag) -->
-                  <span class="method-name">bFunctionalTest</span>
-                  <span class="parameters">(Manoj Kumar inside 'Functional Tests' tag)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite1-class-passed -->
           <div class="suite-Suite1-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -205,6 +191,46 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testnglearning.NewTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="aUnitTest(Manoj Kumar inside &#039;Unit Tests&#039; tag)">
+                  </a> <!-- aUnitTest(Manoj Kumar inside 'Unit Tests' tag) -->
+                  <span class="method-name">aUnitTest</span>
+                  <span class="parameters">(Manoj Kumar inside 'Unit Tests' tag)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bFunctionalTest(Manoj Kumar inside &#039;Functional Tests&#039; tag)">
+                  </a> <!-- bFunctionalTest(Manoj Kumar inside 'Functional Tests' tag) -->
+                  <span class="method-name">bFunctionalTest</span>
+                  <span class="parameters">(Manoj Kumar inside 'Functional Tests' tag)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cUnitTest(Manoj Kumar inside &#039;Unit Tests&#039; tag)">
+                  </a> <!-- cUnitTest(Manoj Kumar inside 'Unit Tests' tag) -->
+                  <span class="method-name">cUnitTest</span>
+                  <span class="parameters">(Manoj Kumar inside 'Unit Tests' tag)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dFunctionalTest(Manoj Kumar inside &#039;Functional Tests&#039; tag)">
+                  </a> <!-- dFunctionalTest(Manoj Kumar inside 'Functional Tests' tag) -->
+                  <span class="method-name">dFunctionalTest</span>
+                  <span class="parameters">(Manoj Kumar inside 'Functional Tests' tag)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
         </div> <!-- panel Suite1 -->
         <div panel-name="test-xml-Suite1" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -216,6 +242,11 @@
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite verbose=&quot;0&quot; name=&quot;Suite1&quot;&gt;
   &lt;parameter name=&quot;MyName&quot; value=&quot;Manoj Kumar&quot;/&gt;
+  &lt;parameter name=&quot;MyEmail&quot; value=&quot;smanoj4081.manu@gmail.com&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.JUnitXMLReporter&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test name=&quot;Unit Tests&quot;&gt;
     &lt;parameter name=&quot;MyName&quot; value=&quot;Manoj Kumar inside &amp;#039;Unit Tests&amp;#039; tag&quot;/&gt;
     &lt;groups&gt;
@@ -277,6 +308,10 @@
                 <br/>
               </div> <!-- method-in-group -->
               <div class="method-in-group">
+                <span class="method-in-group-name">dFunctionalTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
                 <span class="method-in-group-name">wFunctionalTest</span>
                 <br/>
               </div> <!-- method-in-group -->
@@ -294,6 +329,10 @@
               <br/>
               <div class="method-in-group">
                 <span class="method-in-group-name">aUnitTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">cUnitTest</span>
                 <br/>
               </div> <!-- method-in-group -->
               <div class="method-in-group">
@@ -317,36 +356,44 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(6);
+data.addRows(8);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'aUnitTest')
 data.setCell(0, 2, 'testnglearning.NewTest')
-data.setCell(0, 3, 44);
+data.setCell(0, 3, 33);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'wFunctionalTest')
+data.setCell(1, 1, 'xUnitTest')
 data.setCell(1, 2, 'testnglearning.SecondTest')
-data.setCell(1, 3, 24);
+data.setCell(1, 3, 21);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'bFunctionalTest')
+data.setCell(2, 1, 'cUnitTest')
 data.setCell(2, 2, 'testnglearning.NewTest')
-data.setCell(2, 3, 22);
+data.setCell(2, 3, 21);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'yFunctionalTest')
+data.setCell(3, 1, 'wFunctionalTest')
 data.setCell(3, 2, 'testnglearning.SecondTest')
-data.setCell(3, 3, 22);
+data.setCell(3, 3, 21);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'xUnitTest')
+data.setCell(4, 1, 'yFunctionalTest')
 data.setCell(4, 2, 'testnglearning.SecondTest')
-data.setCell(4, 3, 20);
+data.setCell(4, 3, 21);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'zFunctionalTest')
-data.setCell(5, 2, 'testnglearning.SecondTest')
-data.setCell(5, 3, 20);
+data.setCell(5, 1, 'dFunctionalTest')
+data.setCell(5, 2, 'testnglearning.NewTest')
+data.setCell(5, 3, 21);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'bFunctionalTest')
+data.setCell(6, 2, 'testnglearning.NewTest')
+data.setCell(6, 3, 20);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'zFunctionalTest')
+data.setCell(7, 2, 'testnglearning.SecondTest')
+data.setCell(7, 3, 20);
 window.suiteTableData['Suite1']= { tableData: data, tableDiv: 'times-div-Suite1'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 152 ms</span>
+              <span class="suite-total-time">Total running time: 178 ms</span>
               <div id="times-div-Suite1">
               </div> <!-- times-div-Suite1 -->
             </div> <!-- times-div -->
@@ -361,18 +408,9 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite1" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">6 ignored methods</span>
+            <span class="header-content">8 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">testnglearning.NewTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">aUnitTest</span>
-                <br/>
-                <span class="ignored-method-name">bFunctionalTest</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
               <span class="ignored-class-name">testnglearning.SecondTest</span>
               <div class="ignored-methods-div">
@@ -383,6 +421,19 @@ return data;
                 <span class="ignored-method-name">xUnitTest</span>
                 <br/>
                 <span class="ignored-method-name">zFunctionalTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testnglearning.NewTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">cUnitTest</span>
+                <br/>
+                <span class="ignored-method-name">aUnitTest</span>
+                <br/>
+                <span class="ignored-method-name">bFunctionalTest</span>
+                <br/>
+                <span class="ignored-method-name">dFunctionalTest</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -399,34 +450,42 @@ return data;
                 <span class="method-name">aUnitTest(Manoj Kumar inside 'Unit Tests' tag)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">cUnitTest(Manoj Kumar inside 'Unit Tests' tag)</span>
+                <span class="method-start">33 ms</span>
+              </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testnglearning.SecondTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">xUnitTest(Manoj Kumar inside 'Unit Tests' tag)</span>
-                <span class="method-start">47 ms</span>
+                <span class="method-start">74 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testnglearning.NewTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">bFunctionalTest(Manoj Kumar inside 'Functional Tests' tag)</span>
-                <span class="method-start">132 ms</span>
+                <span class="method-start">489 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dFunctionalTest(Manoj Kumar inside 'Functional Tests' tag)</span>
+                <span class="method-start">509 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testnglearning.SecondTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">wFunctionalTest(Manoj Kumar inside 'Functional Tests' tag)</span>
-                <span class="method-start">155 ms</span>
+                <span class="method-start">530 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">yFunctionalTest(Manoj Kumar inside 'Functional Tests' tag)</span>
-                <span class="method-start">179 ms</span>
+                <span class="method-start">551 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">zFunctionalTest(Manoj Kumar inside 'Functional Tests' tag)</span>
-                <span class="method-start">204 ms</span>
+                <span class="method-start">572 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
